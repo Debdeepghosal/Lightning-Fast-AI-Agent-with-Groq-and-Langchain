@@ -1,0 +1,5 @@
+langchain==0.1.13
+langchain-groq==0.0.1
+langchainhub==0.1.15
+streamlit==1.32.2
+langchain-community==0.0.29
