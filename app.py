@@ -6,7 +6,7 @@ GROQ_API_KEY=os.environ['GROQ_API_KEY']
 
 
 
-llm = ChatGroq(temperature=0, groq_api_key=GROQ_API_KEY, model_name="mixtral-8x7b-32768",max_tokens=4000,)
+llm = ChatGroq(temperature=0, groq_api_key=GROQ_API_KEY, model_name="llama-3.1-8b-instant",max_tokens=4000,)
 
 #########################################################################################################
 from langchain.pydantic_v1 import BaseModel, Field
