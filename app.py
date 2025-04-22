@@ -159,8 +159,8 @@ import streamlit as st
 from langchain.callbacks.streamlit import StreamlitCallbackHandler
 
 
-st.header('Lightning Fast AI Agent with GROQ and Langchain 🚀', divider='rainbow')
-
+# st.header('Lightning Fast AI Agent with GROQ and Langchain 🚀', divider='rainbow')
+st.header('Medical AI Agent 🚀', divider='rainbow')
 
 if prompt := st.chat_input():
     st.chat_message("user").write(prompt)
